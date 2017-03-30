@@ -1,0 +1,28 @@
+{
+  "version": "0.1.0",
+  "name": "fatigue-eslint-airbnb-base",
+  "description": "Add dependencies for eslint with airbnb base config",
+  "author": "Amador Mateo <amateofernandez@gmail.com>",
+  "license": "MIT",
+  "homepage": "https://github.com/amadormf/fatigue-react-babel",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/amadormf/fatigue-react-babel.git"
+  },
+  "bugs": {
+    "url": "https://github.com/amadormf/fatigue-react-babel/issues"
+  },
+  "main": "index.js",
+  "scripts": {
+    "postversion": "git push --follow-tags"
+  },
+  "engines": {
+    "node": ">=4.2.1",
+    "npm": ">=3"
+  },
+  "dependencies": {
+    "eslint": "^3.18.0",
+    "eslint-config-airbnb-base": "^11.1.2",
+    "eslint-plugin-import": "^2.2.0"
+  }
+}
